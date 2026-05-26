@@ -66,3 +66,12 @@ p{
 .button {
     background-color: rgb(238, 44, 180);
 }
+
+.title_product{
+
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b1313;
+}
