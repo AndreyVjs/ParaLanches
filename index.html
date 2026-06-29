@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<title>Parah Lanches</title>
-<meta charset="UTF-8">
-<link rel="Stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+    <title>Parah Lanches</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linkando o css com o html -->
+    <link rel="Stylesheet" href="css/style.css">
 
 
 
@@ -13,29 +15,37 @@
 
 <body>
 
-<h1>Login Parah Lanches</h1>
+    <h1>Login Parah Lanches</h1>
 
-<div class="container">
-<div class="box">
+    <!-- container principal da pagina de login -->
+    <div class="container">
+        <div class="box">
 
-<form>
+            <form>
 
-<p>Login</p>
-<input type="text" name="login" id="login" placeholder="Digite seu login">
+                <p>Login</p>
+                <!-- campo de texto pro usuario digitar o login -->
+                <input type="text" name="login" id="login" placeholder="Digite seu login">
 
-<p>Senha</p>
-<input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                <p>Senha</p>
+                <!-- campo de senha, o type password esconde os caracteres -->
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
 
-<button type="button" onclick="mostrarSenha()">👁️</button>
+                <!-- botao que chama a funcao de mostrar/esconder a senha -->
+                <button type="button" onclick="mostrarSenha()">👁️</button>
 
-<br><br>
+                <br><br>
 
-<button class="button" onclick="verificarlogin()">Entrar</button>
+                <!-- botao de entrar que verifica o login -->
+                <button class="button" onclick="verificarlogin()">Entrar</button>
 
-</form>
+            </form>
 
-</div>
-</div>
+        </div>
+    </div>
 
+    <!-- linkando o js no final do body pra garantir que o html carrega primeiro -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
